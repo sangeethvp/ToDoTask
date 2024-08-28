@@ -1,0 +1,82 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b1b6f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(223, 234, 238, 0.986);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-container input, .form-container select {
+    padding: 8px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.form-container button {
+    padding: 8px;
+    background-color: #05060cea;
+    color: white;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+}
+
+.summary {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #96b3f1;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+li.income {
+    border-left: 5px solid green;
+}
+
+li.expense {
+    border-left: 5px solid red;
+}
+
+li button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
